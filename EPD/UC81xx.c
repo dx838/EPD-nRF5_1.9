@@ -323,73 +323,18 @@ static epd_driver_t epd_drv_jd79665 = {
 };
 
 // UC8176 400x300 Black/White
-const epd_model_t epd_uc8176_420_bw = {
-    .id = EPD_UC8176_420_BW,
-    .color = BW,
-    .drv = &epd_drv_uc8176,
-    .width = 400,
-    .height = 300,
-};
-
+const epd_model_t epd_uc8176_420_bw = {EPD_UC8176_420_BW, BW, &epd_drv_uc8176, 400, 300};
 // UC8176 400x300 Black/White/Red
-const epd_model_t epd_uc8176_420_bwr = {
-    .id = EPD_UC8176_420_BWR,
-    .color = BWR,
-    .drv = &epd_drv_uc8176,
-    .width = 400,
-    .height = 300,
-};
-
+const epd_model_t epd_uc8176_420_bwr = {EPD_UC8176_420_BWR, BWR, &epd_drv_uc8176, 400, 300};
 // UC8159 640x384 Black/White
-const epd_model_t epd_uc8159_750_bw = {
-    .id = EPD_UC8159_750_LOW_BW,
-    .color = BW,
-    .drv = &epd_drv_uc8159,
-    .width = 640,
-    .height = 384,
-};
-
+const epd_model_t epd_uc8159_750_bw = {EPD_UC8159_750_LOW_BW, BW, &epd_drv_uc8159, 640, 384};
 // UC8159 640x384 Black/White/Red
-const epd_model_t epd_uc8159_750_bwr = {
-    .id = EPD_UC8159_750_LOW_BWR,
-    .color = BWR,
-    .drv = &epd_drv_uc8159,
-    .width = 640,
-    .height = 384,
-};
-
+const epd_model_t epd_uc8159_750_bwr = {EPD_UC8159_750_LOW_BWR, BWR, &epd_drv_uc8159, 640, 384};
 // UC8179 800x480 Black/White/Red
-const epd_model_t epd_uc8179_750_bw = {
-    .id = EPD_UC8179_750_BW,
-    .color = BW,
-    .drv = &epd_drv_uc8179,
-    .width = 800,
-    .height = 480,
-};
-
+const epd_model_t epd_uc8179_750_bw = {EPD_UC8179_750_BW, BW, &epd_drv_uc8179, 800, 480};
 // UC8179 800x480 Black/White/Red
-const epd_model_t epd_uc8179_750_bwr = {
-    .id = EPD_UC8179_750_BWR,
-    .color = BWR,
-    .drv = &epd_drv_uc8179,
-    .width = 800,
-    .height = 480,
-};
-
+const epd_model_t epd_uc8179_750_bwr = {EPD_UC8179_750_BWR, BWR, &epd_drv_uc8179, 800, 480};
 // JD79668 400x300 Black/White/Red/Yellow
-const epd_model_t epd_jd79668_420_bwry = {
-    .id = EPD_JD79668_420_BWRY,
-    .color = BWRY,
-    .drv = &epd_drv_jd79668,
-    .width = 400,
-    .height = 300,
-};
-
+const epd_model_t epd_jd79668_420_bwry = {EPD_JD79668_420_BWRY, BWRY, &epd_drv_jd79668, 400, 300};
 // JD79665 800x480 Black/White/Red/Yellow
-const epd_model_t epd_jd79668_750_bwry = {
-    .id = EPD_JD79668_750_BWRY,
-    .color = BWRY,
-    .drv = &epd_drv_jd79665,
-    .width = 800,
-    .height = 480,
-};
+const epd_model_t epd_jd79668_750_bwry = {EPD_JD79668_750_BWRY, BWRY, &epd_drv_jd79665, 800, 480};

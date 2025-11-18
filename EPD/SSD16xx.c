@@ -141,37 +141,10 @@ static epd_driver_t epd_drv_ssd1677 = {
 };
 
 // SSD1619 400x300 Black/White/Red
-const epd_model_t epd_ssd1619_420_bwr = {
-    .id = EPD_SSD1619_420_BWR,
-    .color = BWR,
-    .drv = &epd_drv_ssd1619,
-    .width = 400,
-    .height = 300,
-};
-
+const epd_model_t epd_ssd1619_420_bwr = {EPD_SSD1619_420_BWR, BWR, &epd_drv_ssd1619, 400, 300};
 // SSD1619 400x300 Black/White
-const epd_model_t epd_ssd1619_420_bw = {
-    .id = EPD_SSD1619_420_BW,
-    .color = BW,
-    .drv = &epd_drv_ssd1619,
-    .width = 400,
-    .height = 300,
-};
-
+const epd_model_t epd_ssd1619_420_bw = {EPD_SSD1619_420_BW, BW, &epd_drv_ssd1619, 400, 300};
 // SSD1677 880x528 Black/White/Red
-const epd_model_t epd_ssd1677_750_bwr = {
-    .id = EPD_SSD1677_750_HD_BWR,
-    .color = BWR,
-    .drv = &epd_drv_ssd1677,
-    .width = 880,
-    .height = 528,
-};
-
+const epd_model_t epd_ssd1677_750_bwr = {EPD_SSD1677_750_HD_BWR, BWR, &epd_drv_ssd1677, 880, 528};
 // SSD1677 880x528 Black/White
-const epd_model_t epd_ssd1677_750_bw = {
-    .id = EPD_SSD1677_750_HD_BW,
-    .color = BW,
-    .drv = &epd_drv_ssd1677,
-    .width = 880,
-    .height = 528,
-};
+const epd_model_t epd_ssd1677_750_bw = {EPD_SSD1677_750_HD_BW, BW, &epd_drv_ssd1677, 880, 528};
