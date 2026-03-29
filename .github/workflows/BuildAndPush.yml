@@ -5,7 +5,8 @@ on:
   workflow_dispatch:
 
 env:
-  TAG_NAME: "${{ inputs.upload-tag }}"
+  //TAG_NAME: "${{ inputs.upload-tag }}"
+  TAG_NAME: "1.9"
 jobs:
   nrf51:
     runs-on: ubuntu-latest
