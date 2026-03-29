@@ -36,7 +36,7 @@ jobs:
           # 上传构建产物（支持通配符、多行）
           tag_name: ${{ env.TAG_NAME }}
           files: |
-            nrf51822_xxaa.zip
+            nrf51822_xxaa.*
           # 自动生成变更日志（基于标签间的提交）
           generate_release_notes: true
           # 可选：是否为预发布
@@ -73,7 +73,7 @@ jobs:
           # 上传构建产物（支持通配符、多行）
           tag_name: ${{ env.TAG_NAME }}
           files: |
-            nrf52811_xxaa.zip
+            nrf52811_xxaa.*
           # 自动生成变更日志（基于标签间的提交）
           generate_release_notes: true
           # 可选：是否为预发布
